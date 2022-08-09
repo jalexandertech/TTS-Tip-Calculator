@@ -1,13 +1,3 @@
-function Meal(){
-    let total = parseFloat(document.getElementById('bill').value);
-    let percentage = parseFloat(document.getElementById('quality').value);
-    let guests = parseFloat(document.getElementById('guests').value);
-    let added = total * percentage;
-    let final = total + added;
-    let split = final/guests;
-}
-
-
 class Dinner{
 constructor(final, split){
 		let total = parseFloat(document.getElementById('bill').value);
