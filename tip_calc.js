@@ -13,6 +13,6 @@ constructor(final, split){
 
 function displayOut(){
 	let x = new Dinner();
-  	let htmlString = "Each guest pays $"+ x.split +" in tips. This equates to a total of: $"+ x.final;
+  	let htmlString = "Each guest pays $"+ x.split +". This equates to a total of: $"+ x.final;
   document.getElementById("results").innerHTML = htmlString;
 }
