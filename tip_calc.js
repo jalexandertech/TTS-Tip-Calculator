@@ -1,6 +1,6 @@
 class Dinner{
 constructor(final, split){
-		let total = parseFloat(document.getElementById('bill').value);
+    let total = parseFloat(document.getElementById('bill').value);
     let percentage = parseFloat(document.getElementById('quality').value);
     let guests = parseFloat(document.getElementById('guests').value);
     let added = total * percentage;
