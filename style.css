@@ -3,4 +3,13 @@ body{
     font-family: 'Space Mono', monospace;
     background-image: url(8bitmoney.jpeg);
     color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+html{
+    display: table;
+    margin: auto;
+}
+html, body{
+    height: 100%;
 }
