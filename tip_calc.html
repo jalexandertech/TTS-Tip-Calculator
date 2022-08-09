@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tip Calculator</title>
 </head>
 <body>
@@ -13,7 +10,7 @@
             <form>
                 <p>Bill Amount:</p>
                 $<input id = "bill" type="text" placeholder = "Enter an amount"> 
-                <p>Quality of Service:</p>
+                <p>How was you service today?:</p>
                 <select id="quality">
                     <option value =".4">Amazing(40%)</option>
                     <option value =".35">Awesome(35%)</option>
@@ -25,13 +22,10 @@
                     <option value = ".5">Horrible(5%)</option>
                     <option value="0">I'm Never Eating Here Again(0%)</option>
                 </select>
-
-
-
+                <p>Party of:</p>
+                <input id ="guests" type="text" placeholder="Enter no. of guests">
             </form>
-
-
-
+            <button type = "button" id="submit">Submit</button>
         </div>
     </div>
 </body>
