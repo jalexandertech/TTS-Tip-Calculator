@@ -46,3 +46,7 @@ html, body{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+option .default {
+    display: none;
+}
