@@ -54,6 +54,11 @@ html, body{
     padding: 20px 30px 30px 40px;
     margin-top: 15px;
     margin-bottom: 15px;
+    margin-left: 75px;
+}
+
+#results {
+    padding-left: 150px;
 }
 
 option .default {
