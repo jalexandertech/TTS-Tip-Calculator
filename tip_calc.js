@@ -3,8 +3,8 @@ class Dinner{
       let total = parseFloat(document.getElementById('bill').value);
       let percentage = parseFloat(document.getElementById('quality').value);
       let guests = parseFloat(document.getElementById('guests').value);
-      let extra = parseFloat((total*percentage).toFixed(2));
-      let full_bill = parseFloat((total + extra).toFixed(2));
+      let extra = (total*percentage).toFixed(2);
+      let full_bill = (total + (total*percentage)).toFixed(2);
       let shares = (full_bill/guests).toFixed(2);        
       this.tip = extra;
       this.final = full_bill;
@@ -21,4 +21,3 @@ class Dinner{
     document.getElementById("eachguest").innerHTML = htmlString2;
     document.getElementById("totalof").innerHTML = htmlString3;
   }
-
