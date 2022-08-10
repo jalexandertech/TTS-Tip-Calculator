@@ -21,3 +21,4 @@ class Dinner{
     document.getElementById("eachguest").innerHTML = htmlString2;
     document.getElementById("totalof").innerHTML = htmlString3;
   }
+
