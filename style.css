@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Space+Mono&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Space+Mono&display=swap');
 body{
     font-family: 'Space Mono', monospace;
     background-image: url(8bitmoney.jpeg);
@@ -7,6 +8,12 @@ body{
     vertical-align: middle;
 }
 
+#topcalc{
+    font-family: 'Faster One', cursive;
+    margin-top: 10px;
+    font-size: 60px;
+    text-shadow:20px 5px  rgb(222, 139, 37);
+}
 #topcalc, #results {
     color: white;
     font-weight: bold;
@@ -23,7 +30,9 @@ form {
 input, button {
     font-size: 15px;
 }
-
+button{
+    align-items: center;
+}
 #results p {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -45,4 +54,9 @@ html, body{
     padding: 20px 30px 30px 40px;
     margin-top: 15px;
     margin-bottom: 15px;
+    margin-left: 75px;
+}
+
+#results {
+    padding-left: 150px;
 }
