@@ -12,8 +12,8 @@ class Dinner{
     
     function displayOut(){
         let meal = new Dinner();
-          let htmlString1 = "Each guest pays $"+ meal.split + ".";
-          let htmlString2 = "This equates to a total of: $"+ meal.final + ".";
+          let htmlString1 = "Each guest pays: $"+ meal.split;
+          let htmlString2 = "Total bill including tip: $"+ meal.final;
       document.getElementById("eachguest").innerHTML = htmlString1;
       document.getElementById("totalof").innerHTML = htmlString2;
     }
